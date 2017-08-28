@@ -1,0 +1,135 @@
+body {
+    background-color: #f6f6f6;
+}
+
+.body-wrap {
+    margin: 0;
+    padding: 0;
+}
+
+.logo-wrapper {
+    color: red;
+    padding: 0;
+    display: inline-block;
+    float: left;
+    margin: 0;
+    height: auto;
+    position: relative;
+    z-index: 9;
+    top: -7px;
+    left: 12px;
+}
+
+.logo-wrapper img {
+    width: 62%;
+    float: left;
+    /* margin: 5px 0 5px 0; */
+}
+
+.body-wrap header {
+    margin-top: 20px;
+}
+
+.tab-wrapper {
+    text-align: left;
+    margin: auto;
+    padding-top: 8px;
+    padding-bottom: 3px;
+    background-color: #fff;
+    margin-bottom: 27px;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.body-wrap li.active a {
+    color: #000;
+    font-weight: bold;
+}
+
+.tab-wrapper .list-inline a {
+    font-size: 13px;
+}
+
+.tab-wrapper .list-inline .active {
+    color: #000;
+    font-weight: bold;
+}
+
+.body-wrap a {
+    color: #645d59;
+}
+
+.new-prg-btn .glyphicon {
+    font-size: 45px;
+}
+
+.more-btn {
+    position: absolute;
+    bottom: -9px;
+    font-weight: bold;
+    width: 92%;
+    padding: 2px;
+    text-align: center;
+}
+
+.tbl-wrap-btm {
+    margin-top: 50px;
+}
+
+.tbl-wrap-btm a {
+    font-size: 12px;
+    display: block;
+}
+
+.humberg {
+    background-color: orange;
+    position: absolute;
+    right: 0;
+    z-index: 10;
+}
+
+.humberg span {
+    background-color: white;
+}
+
+.main-nav {
+    padding: 0;
+}
+
+@media screen and (max-width: 768px) {
+    .logo-wrapper {
+        width: 100%;
+    }
+    .logo-wrapper img {
+        width: 125px;
+        float: left;
+    }
+    .new-prg-btn .glyphicon-plus {
+        font-size: 20px;
+    }
+    .body-wrap .nav-tabs>li {
+        display: block;
+        float: none;
+    }
+    .tab-wrapper {
+        display: none;
+    }
+    .main-nav {
+        background-color: white;
+        width: 55%;
+        float: right;
+        position: absolute;
+        top: 1px;
+        z-index: 1;
+        right: 0;
+    }
+    .main-nav .nav-tabs>li.active>a {
+        border: none;
+    }
+    .charts-wrap .col-sm-3 {
+        margin-bottom: 30px;
+    }
+    .more-btn {
+        width: 95%;
+    }
+}
